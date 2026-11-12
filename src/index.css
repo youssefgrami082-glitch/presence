@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Fraunces', 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'DM Sans', 'Public Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  html[data-font="modern"] {
+    --font-display: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', 'DM Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html[data-font="academic"] {
+    --font-display: 'Fraunces', 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'DM Sans', 'Public Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html[data-font="cormorant"] {
+    --font-display: 'Cormorant Garamond', Garamond, 'Times New Roman', serif;
+    --font-sans: 'Public Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    scroll-padding-top: env(safe-area-inset-top, 0px);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  .dark body {
+    letter-spacing: 0.005em;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}

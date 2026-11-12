@@ -1,0 +1,110 @@
+{
+  "session": {
+    "title": "Management & Marketing",
+    "subtitle": "Journée Académique & Rencontres Professionnelles",
+    "institution": "ISCAE · Université de la Manouba",
+    "location": "Amphithéâtre Central · Campus Universitaire de la Manouba",
+    "dateLabel": "jeudi 12 novembre 2026",
+    "recipientEmail": "gharbimolka1107@gmail.com",
+    "isOpen": true,
+    "capacity": 160
+  },
+  "presences": [
+    {
+      "id": "seed-8",
+      "code": "ISC-27DF",
+      "nom": "Jebali Aziz",
+      "filiere": "1LSG",
+      "groupe": "Groupe 1",
+      "grp": "1LSG, Groupe 1",
+      "matricule": "2402109",
+      "ts": 1794507809073,
+      "source": "etudiant",
+      "deviceId": "seed-device-8"
+    },
+    {
+      "id": "seed-7",
+      "code": "ISC-61HJ",
+      "nom": "Mansouri Salma",
+      "filiere": "3LSG · MNG",
+      "groupe": "Groupe 2",
+      "grp": "3LSG · MNG, Groupe 2",
+      "matricule": "2200631",
+      "ts": 1794507509073,
+      "source": "etudiant",
+      "deviceId": "seed-device-7"
+    },
+    {
+      "id": "seed-6",
+      "code": "ISC-39CX",
+      "nom": "Khelifi Youssef",
+      "filiere": "LSC",
+      "groupe": "Groupe 2",
+      "grp": "LSC, Groupe 2",
+      "matricule": "2301520",
+      "ts": 1794507089073,
+      "source": "etudiant",
+      "deviceId": "seed-device-6"
+    },
+    {
+      "id": "seed-5",
+      "code": "ISC-84VW",
+      "nom": "Bouazizi Nourhene",
+      "filiere": "Master MNG",
+      "groupe": "Groupe 1",
+      "grp": "Master MNG, Groupe 1",
+      "matricule": "2100772",
+      "ts": 1794506729073,
+      "source": "etudiant",
+      "deviceId": "seed-device-5"
+    },
+    {
+      "id": "seed-4",
+      "code": "ISC-56TR",
+      "nom": "Gharbi Mehdi",
+      "filiere": "2LSG",
+      "groupe": "Groupe 3",
+      "grp": "2LSG, Groupe 3",
+      "matricule": "2300914",
+      "ts": 1794506369073,
+      "source": "etudiant",
+      "deviceId": "seed-device-4"
+    },
+    {
+      "id": "seed-3",
+      "code": "ISC-72QN",
+      "nom": "Trabelsi Ines",
+      "filiere": "3LSG · MKT",
+      "groupe": "Groupe 1",
+      "grp": "3LSG · MKT, Groupe 1",
+      "matricule": "2201158",
+      "ts": 1794505949073,
+      "source": "etudiant",
+      "deviceId": "seed-device-3"
+    },
+    {
+      "id": "seed-2",
+      "code": "ISC-93KP",
+      "nom": "Ben Romdhane Yasmine",
+      "filiere": "Master MKT",
+      "groupe": "Groupe 1",
+      "grp": "Master MKT, Groupe 1",
+      "matricule": "2100493",
+      "ts": 1794505589073,
+      "source": "etudiant",
+      "deviceId": "seed-device-2"
+    },
+    {
+      "id": "seed-1",
+      "code": "ISC-482M",
+      "nom": "Ben Salah Ahmed",
+      "filiere": "1LSG",
+      "groupe": "Groupe 2",
+      "grp": "1LSG, Groupe 2",
+      "matricule": "2401842",
+      "ts": 1794505289073,
+      "source": "etudiant",
+      "deviceId": "seed-device-1"
+    }
+  ]
+}

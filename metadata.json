@@ -1,0 +1,6 @@
+{
+  "name": "Pointage ISCAE Manouba – Management & Marketing",
+  "description": "Portail officiel de pointage des présences en temps réel, génération de QR code amphithéâtre et tableau de bord organisateur pour l'événement Management & Marketing de l'ISCAE Manouba.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
